@@ -16,8 +16,8 @@ using namespace std ;
 #include "employee-class.h"
 
 int main (){
-    employee employee1 (" Jane " , " Green " , -1000 ) ; //test constractur for not posrive salary .
-    employee employee2(" John " , " Blue " , 10000 ) ;
+    employee employee1 (" Jane " , " Green " , -1000 ) ; //test constractur for not postive salary .
+    employee employee2 (" John " , " Blue " , 10000 ) ;
 
     cout << employee1.getFirstName() << employee1.getLastName()<<"  " 
     << employee1.getMonthlySalary()<<"  "<<employee1.getYearlySalary() << endl ;
